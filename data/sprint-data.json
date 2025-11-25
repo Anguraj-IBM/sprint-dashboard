@@ -1,0 +1,954 @@
+{
+  "sprints": [
+    {
+      "team": "Kingfishers",
+      "sprint": "Sprint 1",
+      "date": "2025-01-01",
+      "totalInitialCommitments": 45,
+      "totalCompletionPercentage": 78,
+      "storyPoints": {
+        "committed": 35,
+        "done": 27
+      },
+      "defects": {
+        "committed": 6,
+        "done": 5
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 3
+      }
+    },
+    {
+      "team": "Kingfishers",
+      "sprint": "Sprint 2",
+      "date": "2025-01-15",
+      "totalInitialCommitments": 50,
+      "totalCompletionPercentage": 85,
+      "storyPoints": {
+        "committed": 40,
+        "done": 34
+      },
+      "defects": {
+        "committed": 5,
+        "done": 5
+      },
+      "userStories": {
+        "committed": 5,
+        "done": 4
+      }
+    },
+    {
+      "team": "Kingfishers",
+      "sprint": "Sprint 3",
+      "date": "2025-02-01",
+      "totalInitialCommitments": 55,
+      "totalCompletionPercentage": 92,
+      "storyPoints": {
+        "committed": 45,
+        "done": 42
+      },
+      "defects": {
+        "committed": 6,
+        "done": 6
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 4
+      }
+    },
+    {
+      "team": "Kingfishers",
+      "sprint": "Sprint 4",
+      "date": "2025-02-15",
+      "totalInitialCommitments": 52,
+      "totalCompletionPercentage": 88,
+      "storyPoints": {
+        "committed": 42,
+        "done": 37
+      },
+      "defects": {
+        "committed": 6,
+        "done": 5
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 4
+      }
+    },
+    {
+      "team": "Kingfishers",
+      "sprint": "Sprint 5",
+      "date": "2025-03-01",
+      "totalInitialCommitments": 48,
+      "totalCompletionPercentage": 82,
+      "storyPoints": {
+        "committed": 38,
+        "done": 31
+      },
+      "defects": {
+        "committed": 6,
+        "done": 5
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 3
+      }
+    },
+    {
+      "team": "Kingfishers",
+      "sprint": "Sprint 6",
+      "date": "2025-03-15",
+      "totalInitialCommitments": 58,
+      "totalCompletionPercentage": 90,
+      "storyPoints": {
+        "committed": 48,
+        "done": 44
+      },
+      "defects": {
+        "committed": 6,
+        "done": 6
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 3
+      }
+    },
+    {
+      "team": "Kingfishers",
+      "sprint": "Sprint 7",
+      "date": "2025-04-01",
+      "totalInitialCommitments": 60,
+      "totalCompletionPercentage": 95,
+      "storyPoints": {
+        "committed": 50,
+        "done": 48
+      },
+      "defects": {
+        "committed": 6,
+        "done": 6
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 4
+      }
+    },
+    {
+      "team": "Kingfishers",
+      "sprint": "Sprint 8",
+      "date": "2025-04-15",
+      "totalInitialCommitments": 56,
+      "totalCompletionPercentage": 87,
+      "storyPoints": {
+        "committed": 46,
+        "done": 40
+      },
+      "defects": {
+        "committed": 6,
+        "done": 5
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 4
+      }
+    },
+    {
+      "team": "Kingfishers",
+      "sprint": "Sprint 9",
+      "date": "2025-05-01",
+      "totalInitialCommitments": 54,
+      "totalCompletionPercentage": 91,
+      "storyPoints": {
+        "committed": 44,
+        "done": 40
+      },
+      "defects": {
+        "committed": 6,
+        "done": 6
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 4
+      }
+    },
+    {
+      "team": "Kingfishers",
+      "sprint": "Sprint 10",
+      "date": "2025-05-15",
+      "totalInitialCommitments": 62,
+      "totalCompletionPercentage": 93,
+      "storyPoints": {
+        "committed": 52,
+        "done": 49
+      },
+      "defects": {
+        "committed": 6,
+        "done": 5
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 4
+      }
+    },
+    {
+      "team": "Mavericks",
+      "sprint": "Sprint 1",
+      "date": "2025-01-01",
+      "totalInitialCommitments": 42,
+      "totalCompletionPercentage": 72,
+      "storyPoints": {
+        "committed": 32,
+        "done": 23
+      },
+      "defects": {
+        "committed": 6,
+        "done": 4
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 3
+      }
+    },
+    {
+      "team": "Mavericks",
+      "sprint": "Sprint 2",
+      "date": "2025-01-15",
+      "totalInitialCommitments": 46,
+      "totalCompletionPercentage": 80,
+      "storyPoints": {
+        "committed": 36,
+        "done": 29
+      },
+      "defects": {
+        "committed": 6,
+        "done": 5
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 3
+      }
+    },
+    {
+      "team": "Mavericks",
+      "sprint": "Sprint 3",
+      "date": "2025-02-01",
+      "totalInitialCommitments": 50,
+      "totalCompletionPercentage": 86,
+      "storyPoints": {
+        "committed": 40,
+        "done": 35
+      },
+      "defects": {
+        "committed": 6,
+        "done": 5
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 3
+      }
+    },
+    {
+      "team": "Mavericks",
+      "sprint": "Sprint 4",
+      "date": "2025-02-15",
+      "totalInitialCommitments": 48,
+      "totalCompletionPercentage": 83,
+      "storyPoints": {
+        "committed": 38,
+        "done": 32
+      },
+      "defects": {
+        "committed": 6,
+        "done": 5
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 3
+      }
+    },
+    {
+      "team": "Mavericks",
+      "sprint": "Sprint 5",
+      "date": "2025-03-01",
+      "totalInitialCommitments": 52,
+      "totalCompletionPercentage": 89,
+      "storyPoints": {
+        "committed": 42,
+        "done": 38
+      },
+      "defects": {
+        "committed": 6,
+        "done": 5
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 4
+      }
+    },
+    {
+      "team": "Mavericks",
+      "sprint": "Sprint 6",
+      "date": "2025-03-15",
+      "totalInitialCommitments": 54,
+      "totalCompletionPercentage": 92,
+      "storyPoints": {
+        "committed": 44,
+        "done": 41
+      },
+      "defects": {
+        "committed": 6,
+        "done": 6
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 4
+      }
+    },
+    {
+      "team": "Mavericks",
+      "sprint": "Sprint 7",
+      "date": "2025-04-01",
+      "totalInitialCommitments": 51,
+      "totalCompletionPercentage": 85,
+      "storyPoints": {
+        "committed": 41,
+        "done": 35
+      },
+      "defects": {
+        "committed": 6,
+        "done": 5
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 4
+      }
+    },
+    {
+      "team": "Mavericks",
+      "sprint": "Sprint 8",
+      "date": "2025-04-15",
+      "totalInitialCommitments": 56,
+      "totalCompletionPercentage": 90,
+      "storyPoints": {
+        "committed": 46,
+        "done": 42
+      },
+      "defects": {
+        "committed": 6,
+        "done": 6
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 3
+      }
+    },
+    {
+      "team": "Mavericks",
+      "sprint": "Sprint 9",
+      "date": "2025-05-01",
+      "totalInitialCommitments": 58,
+      "totalCompletionPercentage": 94,
+      "storyPoints": {
+        "committed": 48,
+        "done": 45
+      },
+      "defects": {
+        "committed": 6,
+        "done": 6
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 4
+      }
+    },
+    {
+      "team": "Mavericks",
+      "sprint": "Sprint 10",
+      "date": "2025-05-15",
+      "totalInitialCommitments": 60,
+      "totalCompletionPercentage": 91,
+      "storyPoints": {
+        "committed": 50,
+        "done": 46
+      },
+      "defects": {
+        "committed": 6,
+        "done": 5
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 4
+      }
+    },
+    {
+      "team": "RebelScrum",
+      "sprint": "Sprint 1",
+      "date": "2025-01-01",
+      "totalInitialCommitments": 40,
+      "totalCompletionPercentage": 68,
+      "storyPoints": {
+        "committed": 30,
+        "done": 20
+      },
+      "defects": {
+        "committed": 6,
+        "done": 4
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 2
+      }
+    },
+    {
+      "team": "RebelScrum",
+      "sprint": "Sprint 2",
+      "date": "2025-01-15",
+      "totalInitialCommitments": 44,
+      "totalCompletionPercentage": 75,
+      "storyPoints": {
+        "committed": 34,
+        "done": 26
+      },
+      "defects": {
+        "committed": 6,
+        "done": 4
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 3
+      }
+    },
+    {
+      "team": "RebelScrum",
+      "sprint": "Sprint 3",
+      "date": "2025-02-01",
+      "totalInitialCommitments": 48,
+      "totalCompletionPercentage": 81,
+      "storyPoints": {
+        "committed": 38,
+        "done": 31
+      },
+      "defects": {
+        "committed": 6,
+        "done": 5
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 3
+      }
+    },
+    {
+      "team": "RebelScrum",
+      "sprint": "Sprint 4",
+      "date": "2025-02-15",
+      "totalInitialCommitments": 46,
+      "totalCompletionPercentage": 78,
+      "storyPoints": {
+        "committed": 36,
+        "done": 28
+      },
+      "defects": {
+        "committed": 6,
+        "done": 5
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 3
+      }
+    },
+    {
+      "team": "RebelScrum",
+      "sprint": "Sprint 5",
+      "date": "2025-03-01",
+      "totalInitialCommitments": 50,
+      "totalCompletionPercentage": 84,
+      "storyPoints": {
+        "committed": 40,
+        "done": 34
+      },
+      "defects": {
+        "committed": 6,
+        "done": 5
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 3
+      }
+    },
+    {
+      "team": "RebelScrum",
+      "sprint": "Sprint 6",
+      "date": "2025-03-15",
+      "totalInitialCommitments": 52,
+      "totalCompletionPercentage": 88,
+      "storyPoints": {
+        "committed": 42,
+        "done": 37
+      },
+      "defects": {
+        "committed": 6,
+        "done": 6
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 4
+      }
+    },
+    {
+      "team": "RebelScrum",
+      "sprint": "Sprint 7",
+      "date": "2025-04-01",
+      "totalInitialCommitments": 54,
+      "totalCompletionPercentage": 91,
+      "storyPoints": {
+        "committed": 44,
+        "done": 40
+      },
+      "defects": {
+        "committed": 6,
+        "done": 6
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 4
+      }
+    },
+    {
+      "team": "RebelScrum",
+      "sprint": "Sprint 8",
+      "date": "2025-04-15",
+      "totalInitialCommitments": 51,
+      "totalCompletionPercentage": 86,
+      "storyPoints": {
+        "committed": 41,
+        "done": 35
+      },
+      "defects": {
+        "committed": 6,
+        "done": 5
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 4
+      }
+    },
+    {
+      "team": "RebelScrum",
+      "sprint": "Sprint 9",
+      "date": "2025-05-01",
+      "totalInitialCommitments": 56,
+      "totalCompletionPercentage": 89,
+      "storyPoints": {
+        "committed": 46,
+        "done": 41
+      },
+      "defects": {
+        "committed": 6,
+        "done": 6
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 3
+      }
+    },
+    {
+      "team": "RebelScrum",
+      "sprint": "Sprint 10",
+      "date": "2025-05-15",
+      "totalInitialCommitments": 58,
+      "totalCompletionPercentage": 93,
+      "storyPoints": {
+        "committed": 48,
+        "done": 45
+      },
+      "defects": {
+        "committed": 6,
+        "done": 6
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 4
+      }
+    },
+    {
+      "team": "Zest",
+      "sprint": "Sprint 1",
+      "date": "2025-01-01",
+      "totalInitialCommitments": 38,
+      "totalCompletionPercentage": 65,
+      "storyPoints": {
+        "committed": 28,
+        "done": 18
+      },
+      "defects": {
+        "committed": 6,
+        "done": 4
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 2
+      }
+    },
+    {
+      "team": "Zest",
+      "sprint": "Sprint 2",
+      "date": "2025-01-15",
+      "totalInitialCommitments": 42,
+      "totalCompletionPercentage": 73,
+      "storyPoints": {
+        "committed": 32,
+        "done": 24
+      },
+      "defects": {
+        "committed": 6,
+        "done": 4
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 3
+      }
+    },
+    {
+      "team": "Zest",
+      "sprint": "Sprint 3",
+      "date": "2025-02-01",
+      "totalInitialCommitments": 46,
+      "totalCompletionPercentage": 80,
+      "storyPoints": {
+        "committed": 36,
+        "done": 29
+      },
+      "defects": {
+        "committed": 6,
+        "done": 5
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 3
+      }
+    },
+    {
+      "team": "Zest",
+      "sprint": "Sprint 4",
+      "date": "2025-02-15",
+      "totalInitialCommitments": 44,
+      "totalCompletionPercentage": 77,
+      "storyPoints": {
+        "committed": 34,
+        "done": 26
+      },
+      "defects": {
+        "committed": 6,
+        "done": 5
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 3
+      }
+    },
+    {
+      "team": "Zest",
+      "sprint": "Sprint 5",
+      "date": "2025-03-01",
+      "totalInitialCommitments": 48,
+      "totalCompletionPercentage": 83,
+      "storyPoints": {
+        "committed": 38,
+        "done": 32
+      },
+      "defects": {
+        "committed": 6,
+        "done": 5
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 3
+      }
+    },
+    {
+      "team": "Zest",
+      "sprint": "Sprint 6",
+      "date": "2025-03-15",
+      "totalInitialCommitments": 50,
+      "totalCompletionPercentage": 88,
+      "storyPoints": {
+        "committed": 40,
+        "done": 35
+      },
+      "defects": {
+        "committed": 6,
+        "done": 6
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 4
+      }
+    },
+    {
+      "team": "Zest",
+      "sprint": "Sprint 7",
+      "date": "2025-04-01",
+      "totalInitialCommitments": 52,
+      "totalCompletionPercentage": 90,
+      "storyPoints": {
+        "committed": 42,
+        "done": 38
+      },
+      "defects": {
+        "committed": 6,
+        "done": 6
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 4
+      }
+    },
+    {
+      "team": "Zest",
+      "sprint": "Sprint 8",
+      "date": "2025-04-15",
+      "totalInitialCommitments": 49,
+      "totalCompletionPercentage": 85,
+      "storyPoints": {
+        "committed": 39,
+        "done": 33
+      },
+      "defects": {
+        "committed": 6,
+        "done": 5
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 4
+      }
+    },
+    {
+      "team": "Zest",
+      "sprint": "Sprint 9",
+      "date": "2025-05-01",
+      "totalInitialCommitments": 54,
+      "totalCompletionPercentage": 89,
+      "storyPoints": {
+        "committed": 44,
+        "done": 39
+      },
+      "defects": {
+        "committed": 6,
+        "done": 6
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 4
+      }
+    },
+    {
+      "team": "Zest",
+      "sprint": "Sprint 10",
+      "date": "2025-05-15",
+      "totalInitialCommitments": 56,
+      "totalCompletionPercentage": 92,
+      "storyPoints": {
+        "committed": 46,
+        "done": 43
+      },
+      "defects": {
+        "committed": 6,
+        "done": 5
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 4
+      }
+    },
+    {
+      "team": "Titans",
+      "sprint": "Sprint 1",
+      "date": "2025-01-01",
+      "totalInitialCommitments": 43,
+      "totalCompletionPercentage": 70,
+      "storyPoints": {
+        "committed": 33,
+        "done": 23
+      },
+      "defects": {
+        "committed": 6,
+        "done": 4
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 3
+      }
+    },
+    {
+      "team": "Titans",
+      "sprint": "Sprint 2",
+      "date": "2025-01-15",
+      "totalInitialCommitments": 47,
+      "totalCompletionPercentage": 76,
+      "storyPoints": {
+        "committed": 37,
+        "done": 28
+      },
+      "defects": {
+        "committed": 6,
+        "done": 5
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 3
+      }
+    },
+    {
+      "team": "Titans",
+      "sprint": "Sprint 3",
+      "date": "2025-02-01",
+      "totalInitialCommitments": 51,
+      "totalCompletionPercentage": 82,
+      "storyPoints": {
+        "committed": 41,
+        "done": 34
+      },
+      "defects": {
+        "committed": 6,
+        "done": 5
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 3
+      }
+    },
+    {
+      "team": "Titans",
+      "sprint": "Sprint 4",
+      "date": "2025-02-15",
+      "totalInitialCommitments": 49,
+      "totalCompletionPercentage": 79,
+      "storyPoints": {
+        "committed": 39,
+        "done": 31
+      },
+      "defects": {
+        "committed": 6,
+        "done": 5
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 3
+      }
+    },
+    {
+      "team": "Titans",
+      "sprint": "Sprint 5",
+      "date": "2025-03-01",
+      "totalInitialCommitments": 53,
+      "totalCompletionPercentage": 85,
+      "storyPoints": {
+        "committed": 43,
+        "done": 37
+      },
+      "defects": {
+        "committed": 6,
+        "done": 5
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 4
+      }
+    },
+    {
+      "team": "Titans",
+      "sprint": "Sprint 6",
+      "date": "2025-03-15",
+      "totalInitialCommitments": 55,
+      "totalCompletionPercentage": 89,
+      "storyPoints": {
+        "committed": 45,
+        "done": 40
+      },
+      "defects": {
+        "committed": 6,
+        "done": 6
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 4
+      }
+    },
+    {
+      "team": "Titans",
+      "sprint": "Sprint 7",
+      "date": "2025-04-01",
+      "totalInitialCommitments": 57,
+      "totalCompletionPercentage": 93,
+      "storyPoints": {
+        "committed": 47,
+        "done": 44
+      },
+      "defects": {
+        "committed": 6,
+        "done": 6
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 4
+      }
+    },
+    {
+      "team": "Titans",
+      "sprint": "Sprint 8",
+      "date": "2025-04-15",
+      "totalInitialCommitments": 54,
+      "totalCompletionPercentage": 87,
+      "storyPoints": {
+        "committed": 44,
+        "done": 38
+      },
+      "defects": {
+        "committed": 6,
+        "done": 5
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 4
+      }
+    },
+    {
+      "team": "Titans",
+      "sprint": "Sprint 9",
+      "date": "2025-05-01",
+      "totalInitialCommitments": 59,
+      "totalCompletionPercentage": 91,
+      "storyPoints": {
+        "committed": 49,
+        "done": 45
+      },
+      "defects": {
+        "committed": 6,
+        "done": 6
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 4
+      }
+    },
+    {
+      "team": "Titans",
+      "sprint": "Sprint 10",
+      "date": "2025-05-15",
+      "totalInitialCommitments": 61,
+      "totalCompletionPercentage": 94,
+      "storyPoints": {
+        "committed": 51,
+        "done": 48
+      },
+      "defects": {
+        "committed": 6,
+        "done": 6
+      },
+      "userStories": {
+        "committed": 4,
+        "done": 4
+      }
+    }
+  ]
+}

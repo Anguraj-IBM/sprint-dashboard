@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sprint Analytics Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Choices.js CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js@10.2.0/public/assets/styles/choices.min.css">
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+    <!-- Choices.js -->
+    <script src="https://cdn.jsdelivr.net/npm/choices.js@10.2.0/public/assets/scripts/choices.min.js"></script>
+</head>
+<body>
+    <div class="dashboard-container">
+        <!-- Header -->
+        <header class="dashboard-header">
+            <h1>📊 IS Team - Sprint Analytics Dashboard</h1>
+            <p class="subtitle">Track team performance and sprint trends</p>
+        </header>
+
+        <!-- Filters Section -->
+        <section class="filters-section">
+            <div class="filter-group">
+                <label for="teamFilter">🏢 Select Teams:</label>
+                <select id="teamFilter" class="filter-select-multi" multiple="multiple">
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="sprintFilter">🚀 Select Sprints:</label>
+                <select id="sprintFilter" class="filter-select-multi" multiple="multiple">
+                </select>
+            </div>
+
+            <div class="filter-group">
+                <label for="metricFilter">📊 Metric View:</label>
+                <select id="metricFilter" class="filter-select">
+                    <option value="all">All Metrics</option>
+                    <option value="storyPoints">Story Points</option>
+                    <option value="defects">Defects</option>
+                    <option value="userStories">User Stories</option>
+                </select>
+            </div>
+
+            <button id="resetFilters" class="btn-reset">🔄 Reset Filters</button>
+        </section>
+
+        <!-- Summary Cards -->
+        <section class="summary-cards">
+            <div class="card">
+                <div class="card-icon">📈</div>
+                <div class="card-content">
+                    <h3>Avg Completion</h3>
+                    <p class="card-value" id="avgCompletion">0%</p>
+                    <span class="card-label">Overall Performance</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">🎯</div>
+                <div class="card-content">
+                    <h3>Total Commitments</h3>
+                    <p class="card-value" id="totalCommitments">0</p>
+                    <span class="card-label">Story Points</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-icon">✅</div>
+                <div class="card-content">
+                    <h3>Completed</h3>
+                    <p class="card-value" id="totalCompleted">0</p>
+                    <span class="card-label">Story Points</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-icon"></div>
+                <div class="card-content">
+                    <h3>Defects Fixed</h3>
+                    <p class="card-value" id="defectsFixed">0</p>
+                    <span class="card-label">Total Resolved</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Charts Section -->
+        <section class="charts-section">
+            <!-- Completion Trend Chart -->
+            <div class="chart-container">
+                <div class="chart-header">
+                    <h2>Completion Percentage Trend</h2>
+                    <p class="chart-description">Track completion rates across sprints</p>
+                </div>
+                <canvas id="completionTrendChart"></canvas>
+            </div>
+
+            <!-- Story Points Chart -->
+            <div class="chart-container">
+                <div class="chart-header">
+                    <h2>Story Points: Committed vs Done</h2>
+                    <p class="chart-description">Compare committed and completed story points</p>
+                </div>
+                <canvas id="storyPointsChart"></canvas>
+            </div>
+
+            <!-- Defects Chart -->
+            <div class="chart-container">
+                <div class="chart-header">
+                    <h2>Defects: Committed vs Done</h2>
+                    <p class="chart-description">Track defect resolution rates</p>
+                </div>
+                <canvas id="defectsChart"></canvas>
+            </div>
+
+            <!-- User Stories Chart -->
+            <div class="chart-container">
+                <div class="chart-header">
+                    <h2>User Stories: Committed vs Done</h2>
+                    <p class="chart-description">Monitor user story completion</p>
+                </div>
+                <canvas id="userStoriesChart"></canvas>
+            </div>
+
+            <!-- Team Comparison Chart -->
+            <div class="chart-container full-width">
+                <div class="chart-header">
+                    <h2>Team Performance Comparison</h2>
+                    <p class="chart-description">Compare average completion rates across teams</p>
+                </div>
+                <canvas id="teamComparisonChart"></canvas>
+            </div>
+
+            <!-- Commitments Overview Chart -->
+            <div class="chart-container full-width">
+                <div class="chart-header">
+                    <h2>Total Commitments Overview</h2>
+                    <p class="chart-description">View total commitments across all sprints</p>
+                </div>
+                <canvas id="commitmentsChart"></canvas>
+            </div>
+        </section>
+
+        <!-- Data Table -->
+        <section class="data-table-section">
+            <div class="table-header">
+                <h2>Detailed Sprint Data</h2>
+                <button id="exportData" class="btn-export">Export CSV</button>
+            </div>
+            <div class="table-wrapper">
+                <table id="sprintDataTable">
+                    <thead>
+                        <tr>
+                            <th>Team</th>
+                            <th>Sprint</th>
+                            <th>Date</th>
+                            <th>Completion %</th>
+                            <th>SP Committed</th>
+                            <th>SP Done</th>
+                            <th>Defects Committed</th>
+                            <th>Defects Done</th>
+                            <th>US Committed</th>
+                            <th>US Done</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody">
+                        <!-- Data will be populated by JavaScript -->
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+    </div>
+
+    <script src="dashboard.js"></script>
+</body>
+</html>
