@@ -1,0 +1,22 @@
+version: '3.8'
+
+services:
+  sprint-dashboard:
+    build: .
+    container_name: sprint-analytics-dashboard
+    ports:
+      - "8000:8000"
+    restart: unless-stopped
+    environment:
+      - PYTHONUNBUFFERED=1
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000')"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    labels:
+      - "com.docker.compose.project=sprint-analytics-dashboard"
+      - "description=Sprint Analytics Dashboard for tracking team performance"
+
+# Made with Bob

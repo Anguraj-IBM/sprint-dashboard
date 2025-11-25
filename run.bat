@@ -28,5 +28,3 @@ REM Run the server
 python server.py
 
 pause
-
-@REM Made with Bob

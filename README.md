@@ -61,7 +61,45 @@ dist\SprintDashboard.exe
 
 The executable includes everything needed - no Python installation required on the target machine!
 
-### Option 3: Use Other Web Servers
+### Option 3: Run with Docker (Recommended for Production)
+
+#### Using Docker Compose (Easiest):
+```bash
+docker-compose up -d
+```
+
+#### Using Docker Build Scripts:
+
+**Linux/Mac:**
+```bash
+chmod +x docker-build.sh
+./docker-build.sh
+```
+
+**Windows:**
+```cmd
+docker-build.bat
+```
+
+#### Manual Docker Commands:
+```bash
+# Build the image
+docker build -t sprint-analytics-dashboard .
+
+# Run the container
+docker run -d --name sprint-analytics-dashboard -p 8000:8000 sprint-analytics-dashboard
+```
+
+Access at: http://localhost:8000
+
+**Docker Benefits:**
+- ✅ Consistent environment across all systems
+- ✅ No Python installation needed
+- ✅ Easy deployment and scaling
+- ✅ Built-in health checks
+- ✅ Auto-restart on failure
+
+### Option 4: Use Other Web Servers
 
 #### VSCode Live Server (Recommended for Development)
 1. Install "Live Server" extension in VSCode
@@ -97,6 +135,11 @@ sprint-dashboard/
 ├── build.sh            # Build script for executable (Linux/Mac)
 ├── build.bat           # Build script for executable (Windows)
 ├── run.bat             # Quick run script (Windows)
+├── docker-build.sh     # Docker build script (Linux/Mac)
+├── docker-build.bat    # Docker build script (Windows)
+├── Dockerfile          # Docker image configuration
+├── docker-compose.yml  # Docker Compose configuration
+├── .dockerignore       # Docker ignore rules
 ├── requirements.txt    # Python dependencies
 ├── .gitignore          # Git ignore rules
 └── README.md           # This file
@@ -166,12 +209,16 @@ The executable will be in the `dist/` folder.
 
 ## Requirements
 
-### For Running (Option 1 & 2)
+### For Running (Options 1 & 2)
 - Python 3.6 or higher
 
 ### For Building Executable
 - Python 3.6 or higher
 - PyInstaller (`pip install pyinstaller`)
+
+### For Docker (Option 3)
+- Docker Desktop or Docker Engine
+- No Python installation needed
 
 ### For Development
 - Any modern web browser
@@ -184,7 +231,8 @@ The executable will be in the `dist/` folder.
 - **Charts**: Chart.js 4.4.0
 - **UI Components**: Choices.js 10.2.0
 - **Backend**: Python 3 (http.server)
-- **Build Tool**: PyInstaller
+- **Build Tools**: PyInstaller, Docker
+- **Containerization**: Docker, Docker Compose
 
 ## License
 
@@ -194,6 +242,3 @@ MIT License - Feel free to use and modify as needed.
 
 For issues or questions, please check the console logs in your browser's developer tools.
 
----
-
-Made with ❤️ by Bob
