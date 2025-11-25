@@ -13,7 +13,7 @@ from pathlib import Path
 
 # Configuration
 PORT = 8000
-HOST = "127.0.0.1"
+HOST = "0.0.0.0"
 
 class CustomHTTPRequestHandler(http.server.SimpleHTTPRequestHandler):
     """Custom handler to serve files from the correct directory"""

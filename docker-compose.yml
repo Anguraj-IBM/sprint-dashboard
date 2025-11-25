@@ -19,4 +19,3 @@ services:
       - "com.docker.compose.project=sprint-analytics-dashboard"
       - "description=Sprint Analytics Dashboard for tracking team performance"
 
-# Made with Bob
